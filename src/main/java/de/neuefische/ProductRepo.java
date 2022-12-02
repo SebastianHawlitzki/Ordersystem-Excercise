@@ -5,7 +5,7 @@ import lombok.Data;
 
 import java.util.Map;
 @Data
-@AllArgsConstructor
+
 public class ProductRepo  {
 
     //List()
