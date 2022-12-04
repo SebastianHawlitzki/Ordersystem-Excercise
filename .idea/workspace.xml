@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ddefbb-6fd1-4159-9d3d-97b72daaaaad" name="Changes" comment="update 2" />
+    <list default="true" id="38ddefbb-6fd1-4159-9d3d-97b72daaaaad" name="Changes" comment="update 2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/ShopServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/ShopService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,16 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -49,7 +54,7 @@
       <recent name="de.neuefische" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderRepoTest.newOrderEqualsOrderKey">
+  <component name="RunManager" selected="JUnit.ShopServiceTest.getListOfAllOrders">
     <configuration name="OrderRepoTest.newOrderEqualsOrderKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ordersystem-Excercise" />
       <extension name="coverage">
@@ -98,8 +103,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopServiceTest.getListOfAllOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ordersystem-Excercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.ShopServiceTest" />
+      <option name="METHOD_NAME" value="getListOfAllOrders" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopServiceTest.getListOfAllProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ordersystem-Excercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.ShopServiceTest" />
+      <option name="METHOD_NAME" value="getListOfAllProducts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopServiceTest.getListOfAllOrders" />
+        <item itemvalue="JUnit.ShopServiceTest.getListOfAllProducts" />
         <item itemvalue="JUnit.OrderRepoTest.newOrderEqualsOrderKey" />
         <item itemvalue="JUnit.OrderRepoTest.returnNewExpectOrder" />
         <item itemvalue="JUnit.ProductRepoTest.returnExpectProduct" />
@@ -114,7 +153,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669971392216</updated>
-      <workItem from="1669971393722" duration="33047000" />
+      <workItem from="1669971393722" duration="33535000" />
+      <workItem from="1670184063006" duration="2122000" />
     </task>
     <task id="LOCAL-00001" summary="init: BIG BANG">
       <created>1669971473541</created>
@@ -137,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670017039661</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update 2">
+      <created>1670018127840</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670018127840</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

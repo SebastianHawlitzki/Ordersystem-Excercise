@@ -11,26 +11,26 @@ public class ShopService  {
     private ProductRepo productRepo;
     private OrderRepo orderRepo;
 
-    // Methoden
 
-   // getProduct(){
-
+    // getProduct(){
 
 
-
+    //getProductList
     public Map<Integer, Product> listOfAllProducts() {
         return this.productRepo.getProducts();
 
     }
 
     //addOrder(){
-
+   // public OrderRepo add(Order order) {
+   //     orders.put(order.getOrderID(), order);
 
 
     //getOrder(){
 
 
 
+//getOrderList
    public Map<Integer, Order> listOfAllOrders(){
         return this.orderRepo.getOrders();
 
