@@ -20,8 +20,8 @@ public class OrderRepo {
     }
 
     //Add
-    public void add(Order order) {
-      orders.put(order.getOrderID(), order);
+    public Order add(Order order) {
+      return orders.put(order.getOrderID(), order);
 
     }
 }
